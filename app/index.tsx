@@ -82,10 +82,7 @@ export default function Index() {
 
   return (
     <View style={styles.container}>
-      {/* ヘッダー */}
-      <View style={styles.header}>
-        <Text style={styles.title}>お絵描きアプリ</Text>
-      </View>
+      
 
       {/* 描画エリア */}
       <View style={styles.canvasContainer} {...panResponder.panHandlers}>
